@@ -16,7 +16,7 @@ Run `npm start` to start the live server locally.
 
 Please give this repo a ⭐ if you found it useful! Thanks
 
-## Things I've added get you up and running
+## Things I've added to get you up and running
 
 In the `index.html` file, I've added the bare minimum.<br>
 
@@ -32,7 +32,7 @@ if (module.hot) {
 }
 ```
 
-## HMR
+## HMR (Hot Module Replacement)
 
 You might have noticed in `package.json` this line:
 
