@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Simple HTML SASS Boilerplate with Parcel",
   "scripts": {
-    "start": "parcel src/index.html --port 1234 --hmr-port 4326 --host localhost",
+    "start": "parcel src/index.html --port 1234 --hmr-port 4326 --host localhost --open",
     "build": "parcel build src/index.html"
   },
   "keywords": [],
