@@ -12,7 +12,7 @@ Node version in use:<br>
 
 Run `npm install` locally to install all required modules.
 
-Run `npm start` to start the live server locally.
+Run `npm run start` to start the live server locally.
 
 Please give this repo a ⭐ if you found it useful! Thanks
 
