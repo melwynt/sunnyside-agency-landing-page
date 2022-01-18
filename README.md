@@ -37,7 +37,7 @@ if (module.hot) {
 You might have noticed in `package.json` this line:
 
 ```
-"start": "parcel src/index.html --port 1234 --hmr-port 4326 --host localhost"
+"start": "rm -rf public/* && parcel src/index.html --dist-dir public --port 1234 --hmr-port 4326 --host localhost --open"
 ```
 
 Normally it would be enough to just enter:
@@ -49,6 +49,12 @@ Normally it would be enough to just enter:
 HMR might fail on some machines hence the need to specify `--port`, `--hmr-port` and `--host`.
 
 Source: [https://github.com/parcel-bundler/parcel/issues/6334#issuecomment-868853192](https://github.com/parcel-bundler/parcel/issues/6334#issuecomment-868853192)
+
+```
+rm -rf public/*
+```
+
+Each time we are running `npm run start`, we delete all the files inside the `public` folder to avoid stale files.
 
 ## Fork
 
@@ -64,5 +70,5 @@ git remote -v
 
 ## Contact
 
-🐦 Twitter: [@melwyntee](https://twitter.com/melwyntee)<br>
+🐦 Twitter: [@melwyncode](https://twitter.com/melwyncode)<br>
 🧑‍💻 LinkedIn: [melwynturbant](https://www.linkedin.com/in/melwynturbant)
