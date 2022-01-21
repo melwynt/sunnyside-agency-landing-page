@@ -16,11 +16,17 @@ Run `npm run start` to start the live server locally.
 
 Please give this repo a ⭐ if you found it useful! Thanks
 
+## Why should you use this boilerplate?
+
+Parcel is fast!<br>
+
+And this boilerplate makes it super easy to get you up and running.
+
 ## Things I've added to get you up and running
 
 In the `index.html` file, I've added the bare minimum.<br>
 
-In `index.js`, you can replace the code with your React app.<br>
+In `index.js` and `app.js`, you can replace the code with your React app.<br>
 
 The code below will only apply in development.<br>
 

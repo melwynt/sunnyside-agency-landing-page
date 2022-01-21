@@ -13,7 +13,6 @@
     "singleQuote": true
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.1.1",
     "parcel": "latest"
   },
   "dependencies": {
