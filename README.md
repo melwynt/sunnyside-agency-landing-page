@@ -78,6 +78,8 @@ Each time we are running `npm start`, we delete all the files inside the `public
 
 If you get a `404` error, try to run delete the cache first by entering:
 
+![](./404.png)
+
 ```
 rm -rf .parcel-cache
 ```
