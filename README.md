@@ -1,18 +1,30 @@
-## Description
+# A simple React and SASS Boilerplate with Parcel bundler.
 
-This is a simple React and SASS Boilerplate with Parcel bundler:
+## Table of contents
+
+- [A simple React and SASS Boilerplate with Parcel bundler.](#a-simple-react-and-sass-boilerplate-with-parcel-bundler)
+  - [Table of contents](#table-of-contents)
+  - [Description](#description)
+  - [Why should you use this boilerplate?](#why-should-you-use-this-boilerplate)
+  - [Things I've added to get you up and running](#things-ive-added-to-get-you-up-and-running)
+  - [HMR (Hot Module Replacement)](#hmr-hot-module-replacement)
+  - [Troubleshooting](#troubleshooting)
+  - [Fork](#fork)
+  - [Contact](#contact)
+
+## Description
 
 - [parceljs](https://parceljs.org/)
 - react
 - react-dom
 - sass
 
-Node version in use:<br>
+Node version in use (`node -v`):<br>
 `v16.13.0`
 
-Run `npm install` locally to install all required modules.
+Run `npm ci` locally to install all required modules.
 
-Run `npm run start` to start the live server locally.
+Run `npm start` to start the live server locally.
 
 Please give this repo a ⭐ if you found it useful! Thanks
 
@@ -46,7 +58,7 @@ You might have noticed in `package.json` this line:
 "start": "rm -rf public/* && parcel src/index.html --dist-dir public --port 1234 --hmr-port 4326 --host localhost --open"
 ```
 
-Normally it would be enough to just enter:
+Normally it would have been enough to just enter:
 
 ```
 "start": "parcel src/index.html"
@@ -60,7 +72,15 @@ Source: [https://github.com/parcel-bundler/parcel/issues/6334#issuecomment-86885
 rm -rf public/*
 ```
 
-Each time we are running `npm run start`, we delete all the files inside the `public` folder to avoid stale files.
+Each time we are running `npm start`, we delete all the files inside the `public` folder to avoid stale files.
+
+## Troubleshooting
+
+If you get a `404` error, try to run delete the cache first by entering:
+
+```
+rm -rf .parcel-cache
+```
 
 ## Fork
 
