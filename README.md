@@ -76,9 +76,9 @@ Each time we are running `npm start`, we delete all the files inside the `public
 
 ## Troubleshooting
 
-If you get a `404` error, try to run delete the cache first by entering:
-
 ![](./404.png)
+
+If you get a `404` error, try to delete the cache first by running this command:
 
 ```
 rm -rf .parcel-cache
