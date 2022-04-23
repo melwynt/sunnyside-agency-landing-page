@@ -1,0 +1,83 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 80rem repeat(3, 60rem) 77.8rem 44.6rem 35rem;
+
+  .header {
+    background-color: var(--color-blue);
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-rows: 12rem 1fr;
+    grid-template-columns: 1fr 1fr;
+
+    img {
+      grid-column: 1 / -1;
+      grid-row: 1 / -1;
+      width: 100%;
+      z-index: 1;
+    }
+
+    h1 {
+      margin-top: 7.5rem;
+      justify-self: center;
+      font-family: 'Fraunces', sans-serif;
+      font-size: 5.6rem;
+      font-weight: 900;
+      letter-spacing: 0.92rem;
+      grid-column: 1 / -1;
+      grid-row: 2 / -1;
+      color: #fff;
+      z-index: 2;
+      text-transform: uppercase;
+    }
+  }
+
+  .item {
+    &--1 {
+      background-color: var(--color-white);
+      grid-column: 1 / span 2;
+    }
+    &--2 {
+      background-color: var(--color-yellow);
+      grid-column: 3 / span 2;
+    }
+    &--3 {
+      background-color: var(--color-salmon);
+      grid-column: 1 / span 2;
+    }
+    &--4 {
+      background-color: var(--color-white);
+      grid-column: 3 / span 2;
+    }
+    &--5 {
+      background-color: var(--color-pearl-aqua);
+      grid-column: 1 / span 2;
+    }
+    &--6 {
+      background-color: var(--color-blue);
+      grid-column: 3 / span 2;
+    }
+    &--7 {
+      background-color: var(--color-blue);
+    }
+    &--8 {
+      background-color: var(--color-yellow);
+    }
+    &--9 {
+      background-color: var(--color-blue);
+    }
+    &--10 {
+      background-color: var(--color-salmon);
+    }
+  }
+
+  .testimonials {
+    background-color: var(--color-white);
+    grid-column: 1 / -1;
+  }
+
+  .footer {
+    background-color: var(--color-pearl-aqua);
+    grid-column: 1 / -1;
+  }
+}
